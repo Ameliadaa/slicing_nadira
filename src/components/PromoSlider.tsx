@@ -33,7 +33,7 @@ const PromoSlider = () => {
         className="h-full"
       >
         <SwiperSlide>
-          <div className="relative w-full h-[160px] md:[400px] lg:h-[650px]">
+          <div className="relative w-full h-[20vh] md:h-[50vh] lg:h-[80vh]">
             <Image
               src={Banner}
               alt="Slider 1"
@@ -45,7 +45,7 @@ const PromoSlider = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="relative w-full h-[160px] md:[400px] lg:h-[650px]">
+          <div className="relative w-full h-[20vh] md:h-[50vh] lg:h-[80vh]">
             <Image
               src={Banner}
               alt="Slider 2"
@@ -57,7 +57,7 @@ const PromoSlider = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="relative w-full h-[160px] md:[500px] lg:h-[650px]">
+          <div className="relative w-full h-[20vh] md:h-[50vh] lg:h-[80vh]">
             <Image
               src={Banner}
               alt="Slider 3"
@@ -69,10 +69,12 @@ const PromoSlider = () => {
         </SwiperSlide>
       </Swiper>
 
- 
-    
-      <div className="z-30 absolute bottom-3 left-1/2 transform -translate-x-1/2 flex items-center justify-center space-x-2 cstm-pagination "> 
+      
+      <div className="relative">
+      <div className="z-30 w-full flex justify-center absolute bottom-4 md:bottom-5 lg:bottom-8  space-x-2 cstm-pagination  "> 
       </div>
+      </div>
+     
 
 
     </div>

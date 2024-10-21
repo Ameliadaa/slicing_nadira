@@ -20,7 +20,7 @@ const Highlight = () => {
           terbaru
         </p>
       </div>
-      <div className="grid grid-cols-2 gap-4 flex-wrap md:flex md:justify-around  items-center text-center text-primary">
+      <div className="mt-5 grid grid-cols-2 gap-4 flex-wrap md:flex md:justify-around  items-center text-center text-primary">
         <div className="flex flex-col justify-center items-center text-center space-y-2">
           <IoMdPricetags className="w-10 h-10 md:h-16 md:w-16 lg:h-16 lg:w-16" />
           <p className="text-normal text-primary text-base md:text-lg lg:text-lg">Harga Terjangkau</p>

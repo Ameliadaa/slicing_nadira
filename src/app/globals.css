@@ -32,8 +32,8 @@ body {
 }
 
 .cstm-pagination .swiper-pagination-bullet {
-  width: 1rem; 
-  height: 1rem; 
+  width: 0.5rem; 
+  height: 0.5rem; 
   background-color: var(--foreground); 
   opacity: 0.7; 
 }

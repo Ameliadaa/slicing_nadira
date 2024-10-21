@@ -81,7 +81,7 @@ const Footer = () => {
             </div>
             </div>
             <div className="bg-primary text-white flex justify-center items-center text-base md:text-lg lg:text-lg font-bold leading-4 py-3 ">
-            <div>© 2023 - NadiraFSH</div> 
+            <div> © 2023 - NadiraFSH</div> 
             </div> 
 
         </div>
