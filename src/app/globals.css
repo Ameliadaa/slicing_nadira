@@ -1,24 +1,48 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; 
+
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #323138;
+  --primary:  #501519;
+  --secondary:#BD9F7F;
+  --tertiary:#F4F4F4;
+
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins, Plus_Jakarta_Sans ;
 }
+
+.custom-pagination .swiper-pagination-bullet {
+  width: 0.75rem; 
+  height: 0.75rem; 
+  background-color: var(--foreground); 
+  opacity: 0.7; 
+}
+
+.custom-pagination .swiper-pagination-bullet-active {
+  background-color: var(--secondary); 
+  opacity: 1; 
+}
+
+.cstm-pagination .swiper-pagination-bullet {
+  width: 1rem; 
+  height: 1rem; 
+  background-color: var(--foreground); 
+  opacity: 0.7; 
+}
+.cstm-pagination .swiper-pagination-bullet-active {
+  background-color: var(--secondary); 
+  opacity: 1; 
+}
+
+
 
 @layer utilities {
   .text-balance {
