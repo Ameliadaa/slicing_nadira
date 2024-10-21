@@ -6,21 +6,16 @@ import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import Image from "next/image";
-import { useState } from "react";
-import { Swiper as SwiperType } from "swiper";
 import Banner from "../../public/assets/img/Banner Full Width.png";
 
 
 const PromoSlider = () => {
-  const [swiperInstance, setSwiperInstance] = useState<SwiperType | null>(null);
-
  
 
   return (
     <div className="relative  w-full z-10 md:pt-28">
       <Swiper
-        onSwiper={(swiper) => setSwiperInstance(swiper)} 
-        modules={[ Pagination, Autoplay]} 
+        modules={[Pagination, Autoplay]} 
         pagination={{ clickable: true, el: ".cstm-pagination" }}
         autoplay={{
           delay: 3000,

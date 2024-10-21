@@ -57,7 +57,7 @@ const Testimoni = () => {
                 <FaStar key={i} className="w-5 h-5 text-[#CCAD40]" />               
               ))}
             </div>
-            <p className="text-foreground font-poppins text-base md:text-lg lg:text-lg font-normal mb-4">"{testimonial.feedback}"</p>
+            <p className="text-foreground font-poppins text-base md:text-lg lg:text-lg font-normal mb-4">&quot;{testimonial.feedback}&quot;</p>
             <h3 className="text-lg font-bold text-primary ">{testimonial.name}</h3>
                 </div>      
            
