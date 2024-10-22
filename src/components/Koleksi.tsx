@@ -43,7 +43,7 @@ const KoleksiItem = ({ jenisKoleksi, title, imageSrc, buttonLabel }: KoleksiItem
 const Koleksi = () => {
   return (
     <div className="bg-primary py-8 ">
-      <div className="container mx-auto px-4 md:px-10 lg:px-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="container mx-auto px-4 md:px-10 lg:px-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-x-5">
         <KoleksiItem 
         jenisKoleksi="koleksi terbaru"
           title="Yasmine Batik" 

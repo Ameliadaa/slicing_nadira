@@ -66,7 +66,7 @@ const PromoSlider = () => {
 
       
       <div className="relative">
-      <div className="z-30 w-full flex justify-center absolute bottom-4 md:bottom-5 lg:bottom-12  space-x-2 cstm-pagination  "> 
+      <div className="z-30 w-full flex justify-center absolute pb-4 md:pb-4 lg:pb-10  space-x-2 cstm-pagination  "> 
       </div>
       </div>
      
